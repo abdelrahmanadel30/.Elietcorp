@@ -1,0 +1,238 @@
+/* Media Query To Make Nav Resbonsive */
+
+@media (min-width:681px) and (max-width: 1199px) {
+        .navbar-collapse{
+                margin: 1%;
+        }
+        .navbar-nav {
+                width: 100%;
+                text-align: center;
+                font-family: fontR;
+                margin: 0 auto;
+        }
+        .nav>li {
+                display: inline-block;
+                transition: all ease-out 0.5s;
+                float: none;
+        }
+        nav .icons {
+                width: 100%;
+                text-align: center;
+        }
+}
+
+@media (min-width:300px) and (max-width: 680px) {
+        .navbar-nav {
+                width: 100%;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                font-family: fontR;
+        }
+        .nav>li {
+                width: 100%;
+                padding: 3%;
+                transition: all 0.4s ease-in-out;
+                text-align: center;
+                margin: 0 auto;
+        }
+        .navbar-default .navbar-nav>li>a {
+                border-left: 0;
+        }
+        .act {
+                border: 0;
+        }
+        nav .icons {
+                width: 100%;
+                text-align: center;
+        }
+}
+
+
+/*###################################################*/
+
+@media (min-width:550px) and (max-width: 991px) {
+        .carousel-control {
+                font-size: 25px;
+        }
+        .shahm_caption {
+                padding: 0;
+                background-position: 0 0;
+        }
+        .shahm_caption h3 {
+                font-size: 18px;
+                right: -6%;
+                padding: 1% 1%;
+        }
+        .shahm_caption p {
+                font-size: 7px;
+                left: 0;
+                top: -10px;
+        }
+        .shahm_caption a {
+                font-size: 10px;
+                right: 3%;
+                top: -20px;
+        }
+        .carousel-caption {
+                left: inherit;
+                right: 0px;
+                bottom: 0px;
+        }
+}
+
+@media (max-width: 550px) {
+        .carousel-control {
+                font-size: 25px;
+        }
+        .shahm_caption {
+                display: none;
+        }
+}
+
+
+@media (min-width:100px) and (max-width:350px) {
+
+        .project .cust h2 {
+                font-size: 14px;
+        }
+}
+
+
+@media (min-width:100px) and (max-width:991px) {
+        .project {
+                margin-top: 1%;
+                background-image: url(../images/PROJECTS/2.png);
+                background-size: cover;
+        }
+        .project .cust {
+                height: auto;
+                margin: 0 auto;
+        }
+        .project .cust h2 {
+                color: #2b3990;
+                background: linear-gradient( 140deg, rgba(248, 248, 248, 0.8) 0%, rgba(252, 252, 252, 0.8) 100%);
+                right: 0%;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 0;
+                padding: 2% 2%;
+                border-right: none;
+                width: 60%;
+        }
+}
+
+/*##################################*/
+
+
+/* Start Slider - 2*/
+
+@media (min-width:900px) and (max-width: 1100px) {
+        .slider-caption {
+                top: 68%;
+        }
+        .slider-caption div h1, .slider-caption div h3 {
+                font-size: 20pt;
+        }
+        .slider-caption div h3 {
+                font-size: 16pt;
+        }
+        .slider-caption a {
+                font-size: 9pt;
+        }
+        .slider-caption a:hover {
+                border-right: 8px solid #00b5f9;
+        }
+        /*.bx-wrapper .bx-pager.bx-default-pager a {
+                width: 8px;
+                height: 8px;
+        }*/
+        .bx-wrapper .bx-pager {
+                bottom: -5%;
+        }
+        a.pager-prev, a.pager-next {
+                position: relative;
+                margin: 0 81px 0 50px;
+                bottom: 7px;
+        }
+}
+
+@media (min-width:500px) and (max-width: 899px) {
+        .slider-caption div {
+                padding-right: 2%;
+                border-right: 5px solid #00b5f9;
+        }
+        .slider-caption {
+                background-image: none;
+                top: 70%;
+                left: -3%;
+        }
+        .slider-caption div h1, .slider-caption div h3 {
+                font-size: 16px;
+                margin: 0;
+        }
+        .slider-caption div h3 {
+                font-size: 12px;
+                margin: 10% 0% 0% 0%;
+
+        }
+        .slider-caption a {
+                    top: 25px;
+                font-size: 6pt;
+                margin-right: 15%;
+        }
+        .slider-caption a:hover {
+                border-right: 8px solid #00b5f9;
+        }
+        /*.bx-wrapper .bx-pager.bx-default-pager a {
+                width: 5px;
+                height: 5px;
+        }
+        */
+        .bx-wrapper .bx-pager {
+                bottom: -5%;
+        }
+        a.pager-prev, a.pager-next {
+                position: relative;
+                margin: 0 55px 0 55px;
+                bottom: 8px;
+                font-size: 6pt;
+        }
+}
+
+@media (max-width: 500px) {
+        .slider-caption {
+                display: none;
+        }
+
+}
+
+
+/* End  Slider_2 */
+
+
+/*##################################*/
+
+
+/* Start Footer */
+
+
+@media (min-width:100px) and (max-width: 1200px) {
+        .icon_company ul {
+                text-align: center;
+        }
+        .icon_company ul li {
+                display: block;
+                margin: 4%;
+                font-family: fontR;
+        }
+        .icon_company ul li a {
+                border-right: none;
+
+}
+
+
+/* End  Footer */
+
+
+/*##################################*/
